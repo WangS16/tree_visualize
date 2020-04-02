@@ -1,0 +1,747 @@
+{
+  "file": "D:\\Code\\tree_visualize\\src\\test.py",
+  "AST": [
+    {
+      "type": "node",
+      "name": "Module",
+      "children": [
+        1
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "body",
+      "children": [
+        2,
+        7,
+        12,
+        42,
+        72,
+        92
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Import",
+      "children": [
+        3
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "names",
+      "children": [
+        4
+      ]
+    },
+    {
+      "type": "node",
+      "name": "alias",
+      "children": [
+        5,
+        6
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "name",
+      "value": [
+        "torch"
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "asname",
+      "value": [
+        null
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Import",
+      "children": [
+        8
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "names",
+      "children": [
+        9
+      ]
+    },
+    {
+      "type": "node",
+      "name": "alias",
+      "children": [
+        10,
+        11
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "name",
+      "value": [
+        "ast"
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "asname",
+      "value": [
+        null
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Assign",
+      "children": [
+        13,
+        18
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "targets",
+      "children": [
+        14
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Name",
+      "children": [
+        15,
+        16
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "id",
+      "value": [
+        "x"
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "ctx",
+      "children": [
+        17
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Store",
+      "children": []
+    },
+    {
+      "type": "attr",
+      "name": "value",
+      "children": [
+        19
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Call",
+      "children": [
+        20,
+        30,
+        41
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "func",
+      "children": [
+        21
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Attribute",
+      "children": [
+        22,
+        27,
+        28
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "value",
+      "children": [
+        23
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Name",
+      "children": [
+        24,
+        25
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "id",
+      "value": [
+        "torch"
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "ctx",
+      "children": [
+        26
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Load",
+      "children": []
+    },
+    {
+      "type": "attr",
+      "name": "attr",
+      "value": [
+        "Tensor"
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "ctx",
+      "children": [
+        29
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Load",
+      "children": []
+    },
+    {
+      "type": "attr",
+      "name": "args",
+      "children": [
+        31
+      ]
+    },
+    {
+      "type": "node",
+      "name": "List",
+      "children": [
+        32,
+        39
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "elts",
+      "children": [
+        33,
+        35,
+        37
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Num",
+      "children": [
+        34
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "n",
+      "value": [
+        1
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Num",
+      "children": [
+        36
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "n",
+      "value": [
+        2
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Num",
+      "children": [
+        38
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "n",
+      "value": [
+        3
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "ctx",
+      "children": [
+        40
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Load",
+      "children": []
+    },
+    {
+      "type": "attr",
+      "name": "keywords"
+    },
+    {
+      "type": "node",
+      "name": "Assign",
+      "children": [
+        43,
+        48
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "targets",
+      "children": [
+        44
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Name",
+      "children": [
+        45,
+        46
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "id",
+      "value": [
+        "y"
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "ctx",
+      "children": [
+        47
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Store",
+      "children": []
+    },
+    {
+      "type": "attr",
+      "name": "value",
+      "children": [
+        49
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Call",
+      "children": [
+        50,
+        60,
+        71
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "func",
+      "children": [
+        51
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Attribute",
+      "children": [
+        52,
+        57,
+        58
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "value",
+      "children": [
+        53
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Name",
+      "children": [
+        54,
+        55
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "id",
+      "value": [
+        "torch"
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "ctx",
+      "children": [
+        56
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Load",
+      "children": []
+    },
+    {
+      "type": "attr",
+      "name": "attr",
+      "value": [
+        "Tensor"
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "ctx",
+      "children": [
+        59
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Load",
+      "children": []
+    },
+    {
+      "type": "attr",
+      "name": "args",
+      "children": [
+        61
+      ]
+    },
+    {
+      "type": "node",
+      "name": "List",
+      "children": [
+        62,
+        69
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "elts",
+      "children": [
+        63,
+        65,
+        67
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Num",
+      "children": [
+        64
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "n",
+      "value": [
+        2
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Num",
+      "children": [
+        66
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "n",
+      "value": [
+        3
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Num",
+      "children": [
+        68
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "n",
+      "value": [
+        4
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "ctx",
+      "children": [
+        70
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Load",
+      "children": []
+    },
+    {
+      "type": "attr",
+      "name": "keywords"
+    },
+    {
+      "type": "node",
+      "name": "Assign",
+      "children": [
+        73,
+        78
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "targets",
+      "children": [
+        74
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Name",
+      "children": [
+        75,
+        76
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "id",
+      "value": [
+        "z"
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "ctx",
+      "children": [
+        77
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Store",
+      "children": []
+    },
+    {
+      "type": "attr",
+      "name": "value",
+      "children": [
+        79
+      ]
+    },
+    {
+      "type": "node",
+      "name": "BinOp",
+      "children": [
+        80,
+        85,
+        87
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "left",
+      "children": [
+        81
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Name",
+      "children": [
+        82,
+        83
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "id",
+      "value": [
+        "x"
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "ctx",
+      "children": [
+        84
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Load",
+      "children": []
+    },
+    {
+      "type": "attr",
+      "name": "op",
+      "children": [
+        86
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Add",
+      "children": []
+    },
+    {
+      "type": "attr",
+      "name": "right",
+      "children": [
+        88
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Name",
+      "children": [
+        89,
+        90
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "id",
+      "value": [
+        "y"
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "ctx",
+      "children": [
+        91
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Load",
+      "children": []
+    },
+    {
+      "type": "node",
+      "name": "Expr",
+      "children": [
+        93
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "value",
+      "children": [
+        94
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Call",
+      "children": [
+        95,
+        100,
+        105
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "func",
+      "children": [
+        96
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Name",
+      "children": [
+        97,
+        98
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "id",
+      "value": [
+        "print"
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "ctx",
+      "children": [
+        99
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Load",
+      "children": []
+    },
+    {
+      "type": "attr",
+      "name": "args",
+      "children": [
+        101
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Name",
+      "children": [
+        102,
+        103
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "id",
+      "value": [
+        "z"
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "ctx",
+      "children": [
+        104
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Load",
+      "children": []
+    },
+    {
+      "type": "attr",
+      "name": "keywords"
+    }
+  ]
+}

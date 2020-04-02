@@ -1,0 +1,157 @@
+{
+  "code": "\ndef func(a, b):\n    pass\n",
+  "AST": [
+    {
+      "type": "node",
+      "name": "Module",
+      "children": [
+        1
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "body",
+      "children": [
+        2
+      ]
+    },
+    {
+      "type": "node",
+      "name": "FunctionDef",
+      "children": [
+        3,
+        4,
+        18,
+        20,
+        21
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "name",
+      "value": [
+        "func"
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "args",
+      "children": [
+        5
+      ]
+    },
+    {
+      "type": "node",
+      "name": "arguments",
+      "children": [
+        6,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "args",
+      "children": [
+        7,
+        10
+      ]
+    },
+    {
+      "type": "node",
+      "name": "arg",
+      "children": [
+        8,
+        9
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "arg",
+      "value": [
+        "a"
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "annotation",
+      "value": [
+        null
+      ]
+    },
+    {
+      "type": "node",
+      "name": "arg",
+      "children": [
+        11,
+        12
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "arg",
+      "value": [
+        "b"
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "annotation",
+      "value": [
+        null
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "vararg",
+      "value": [
+        null
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "kwonlyargs"
+    },
+    {
+      "type": "attr",
+      "name": "kw_defaults"
+    },
+    {
+      "type": "attr",
+      "name": "kwarg",
+      "value": [
+        null
+      ]
+    },
+    {
+      "type": "attr",
+      "name": "defaults"
+    },
+    {
+      "type": "attr",
+      "name": "body",
+      "children": [
+        19
+      ]
+    },
+    {
+      "type": "node",
+      "name": "Pass",
+      "children": []
+    },
+    {
+      "type": "attr",
+      "name": "decorator_list"
+    },
+    {
+      "type": "attr",
+      "name": "returns",
+      "value": [
+        null
+      ]
+    }
+  ]
+}
